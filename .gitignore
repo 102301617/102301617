@@ -1,0 +1,35 @@
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 环境变量和敏感数据
+.env
+.secret
+config.ini
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 大型数据文件（如果不需要版本控制）
+*.csv
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
